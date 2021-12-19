@@ -6,7 +6,7 @@ const NavBar = () => {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
   <Container>
-  <Navbar.Brand href="#home">Sundar Kushi Farm</Navbar.Brand>
+  <Navbar.Brand href="/">Sundar Kushi Farm</Navbar.Brand>
     <Nav>
       <Navbar.Collapse id="navbar-dark-example">
       <Nav>
@@ -17,7 +17,7 @@ const NavBar = () => {
 
   <Dropdown.Menu>
     <Dropdown.Item href="/addProduct">Add Product</Dropdown.Item>
-    <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+    <Dropdown.Item href="/addCustomer">Add Customer</Dropdown.Item>
     <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
   </Dropdown.Menu>
 </Dropdown>

@@ -6,6 +6,8 @@ import { Container } from 'react-bootstrap';
 import Login from './Screens/Login';
 import HomeScreen from './Screens/HomeScreen';
 import SignUp from './Screens/SignUp';
+import AddProduct from './Screens/AddProduct';
+import AddCustomer from './Screens/AddCustomer';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Route path="/" element={<Login />} />
         <Route path="/home" element={<HomeScreen />} />
         <Route path="/signup" element={<SignUp />} />
+        <Route path="/addProduct" element={<AddProduct />} />
+        <Route path="/addCustomer" element={<AddCustomer />} />
     </Routes>
    </Container>
    </Router>
